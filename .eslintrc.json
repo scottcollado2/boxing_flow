@@ -1,0 +1,78 @@
+{
+	"env": {
+		"browser": true,
+		"commonjs": true,
+		"es2020": true,
+		"node": true
+	},
+	"extends": [
+		"eslint:recommended",
+		"plugin:react/recommended"
+	],
+	"parserOptions": {
+		"ecmaFeatures": {
+			"jsx": true
+		},
+		"ecmaVersion": 2020
+	},
+	"plugins": [
+		"react"
+	],
+	"rules": {
+		"linebreak-style": [
+			"error",
+			"windows"
+		],
+		"quotes": [
+			"warn",
+			"single"
+		],
+		"camelcase": "off",
+		"one-var": [
+			"warn",
+			"consecutive"
+		],
+		"indent": [
+			"warn",
+			"tab",
+			{
+				"VariableDeclarator": {
+					"var": 1,
+					"let": 1,
+					"const": 1
+				},
+				"SwitchCase": 1
+			}
+		],
+		"keyword-spacing": "warn",
+		"new-cap": [
+			"warn",
+			{
+				"properties": false
+			}
+		],
+		"no-control-regex": 0,
+		"no-unused-vars": "error",
+		"padded-blocks": [
+			"warn",
+			{
+				"classes": "always"
+			}
+		],
+		"semi": [
+			"warn",
+			"never"
+		],
+		"space-before-function-paren": [
+			"error",
+			"never"
+		],
+		"eol-last": 0,
+		"newline-per-chained-call": [
+			"error",
+			{
+				"ignoreChainWithDepth": 1
+			}
+		]
+	}
+}
