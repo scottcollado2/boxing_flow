@@ -52,7 +52,7 @@
 			}
 		],
 		"no-control-regex": 0,
-		"no-unused-vars": "error",
+		"no-unused-vars": "warn",
 		"padded-blocks": [
 			"warn",
 			{
@@ -65,7 +65,11 @@
 		],
 		"space-before-function-paren": [
 			"error",
-			"never"
+			{
+				"anonymous": "always",
+				"named": "never",
+				"asyncArrow": "always"
+			}
 		],
 		"eol-last": 0,
 		"newline-per-chained-call": [

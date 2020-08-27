@@ -1,0 +1,5 @@
+{
+	"mongoURI": "mongodb+srv://scollado:ohWc0Gm6pcuV@boxingflow.2krmm.mongodb.net/test?retryWrites=true&w=majority",
+	"jwtSecret": "thisIsASecret",
+	"jwtExpiration": 3600
+}
